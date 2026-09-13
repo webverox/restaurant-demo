@@ -38,7 +38,12 @@ export const metadata: Metadata = {
   publisher: "Webverox",
 
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      {
+        url: "/icon.png",
+        type: "image/png",
+      },
+    ],
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
