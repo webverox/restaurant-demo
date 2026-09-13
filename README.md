@@ -43,7 +43,9 @@ This project demonstrates the type of web experience that can be designed and de
 
 ## 📸 Project Preview
 
-_Add screenshots or a live demo link here._
+**Live Demo:** [View Restaurant Website](https://restaurant-demo-pink-five.vercel.app/)
+
+![Restaurant Website Preview](./public/preview.png)
 
 ## ⚠️ Disclaimer
 
