@@ -15,9 +15,62 @@ const archivo = Archivo({
 });
 
 export const metadata: Metadata = {
-  title: "Ember — Fire, Field, Feeling",
+  title: "Ember Restaurant | Demo by Webverox",
   description:
     "A neighborhood restaurant shaped by open flame, generous plates, and the people who make a table feel like home.",
+
+  keywords: [
+    "Ember Restaurant",
+    "restaurant",
+    "fine dining",
+    "open flame",
+    "food",
+    "restaurant website",
+  ],
+
+  authors: [
+    {
+      name: "Webverox",
+    },
+  ],
+
+  creator: "Webverox",
+  publisher: "Webverox",
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+
+  openGraph: {
+    title: "Ember Restaurant | Demo by Webverox",
+    description:
+      "A neighborhood restaurant shaped by open flame, generous plates, and the people who make a table feel like home.",
+    type: "website",
+    siteName: "Ember Restaurant",
+    images: [
+      {
+        url: "/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Ember Restaurant",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Ember Restaurant | Demo by Webverox",
+    description:
+      "A neighborhood restaurant shaped by open flame, generous plates, and the people who make a table feel like home.",
+    images: ["/og-image.jpg"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export const viewport: Viewport = {
